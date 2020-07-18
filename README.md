@@ -1,2 +1,4 @@
 # ExemploBot
-Um bot feito em JavaScript, Discord.js .
+Um bot com alguns comandos utilizando o Discord.js.
+
+# ExemploBot
