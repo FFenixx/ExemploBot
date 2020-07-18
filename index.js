@@ -2,8 +2,8 @@ const Discord = require("discord.js");
 const Enmap = require("enmap");
 const fs = require("fs");
 const client = new Discord.Client();
-const config = require("./config.json");
-client.config = config;
+const settings = require("./settingsExemplo.json");
+client.settings = settings;
 
 // handler:
 fs.readdir("./eventos/", (err, files) => {
