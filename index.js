@@ -20,7 +20,7 @@ client.commands = new Enmap();
 fs.readdir("./commands/", (err, files) => {
   if (err) return console.error(err); // retorna no console caso ocorra algum erro
   files.forEach(file => {
-    if (!file.endsWith(".js")) return;
+    if (!file.endsWith(".js")) return; .// pega todos os arquivos com .js no final
     let props = require(`./comandos/${file}`); // pega o arquivo que está na pasta comandos
     let commandName = file.split(".")[0];
     console.log(`${commandName} carregado.`);
@@ -29,4 +29,4 @@ fs.readdir("./commands/", (err, files) => {
 });
 
 // iniciar o bot:
-client.login(config.token);
+client.login(settings.token);
