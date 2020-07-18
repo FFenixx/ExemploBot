@@ -1,4 +1,5 @@
 # ExemploBot
 Um bot com alguns comandos utilizando o Discord.js.
 
-# ExemploBot
+# Depedências
+* [Discord.js](https://www.npmjs.com/package/discord.js)
